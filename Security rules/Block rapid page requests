@@ -1,0 +1,1 @@
+(not http.request.uri.path contains ".js" and not http.request.uri.path contains ".css" and not http.request.uri.path contains ".jpg" and not http.request.uri.path contains ".png" and not http.request.uri.path contains ".ico" and not http.request.uri.path contains ".gif" and not http.request.uri.path contains ".webp" and starts_with(http.request.uri.path, "/"))
